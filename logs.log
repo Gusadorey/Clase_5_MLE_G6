@@ -16393,3 +16393,1560 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2025-05-14 22:40:27,252:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
   warnings.warn(
 
+2025-05-14 22:40:28,013:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:28,067:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:28,072:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:28,091:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:28,192:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:28,215:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:28,232:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:28,245:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:28,348:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:28,530:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:28,820:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:28,871:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:28,891:INFO:Calculating mean and std
+2025-05-14 22:40:28,892:INFO:Creating metrics dataframe
+2025-05-14 22:40:28,901:INFO:Uploading results into container
+2025-05-14 22:40:28,901:INFO:Uploading model into container now
+2025-05-14 22:40:28,901:INFO:_master_model_container: 7
+2025-05-14 22:40:28,901:INFO:_display_container: 2
+2025-05-14 22:40:28,901:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=777, verbose=0,
+                       warm_start=False)
+2025-05-14 22:40:28,906:INFO:create_model() successfully completed......................................
+2025-05-14 22:40:29,117:INFO:SubProcess create_model() end ==================================
+2025-05-14 22:40:29,117:INFO:Creating metrics dataframe
+2025-05-14 22:40:29,128:INFO:Initializing Quadratic Discriminant Analysis
+2025-05-14 22:40:29,128:INFO:Total runtime is 0.14149880409240723 minutes
+2025-05-14 22:40:29,128:INFO:SubProcess create_model() called ==================================
+2025-05-14 22:40:29,128:INFO:Initializing create_model()
+2025-05-14 22:40:29,128:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000207D2E38D50>, estimator=qda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000207D320BD50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-14 22:40:29,128:INFO:Checking exceptions
+2025-05-14 22:40:29,128:INFO:Importing libraries
+2025-05-14 22:40:29,128:INFO:Copying training dataset
+2025-05-14 22:40:29,153:INFO:Defining folds
+2025-05-14 22:40:29,153:INFO:Declaring metric variables
+2025-05-14 22:40:29,161:INFO:Importing untrained model
+2025-05-14 22:40:29,169:INFO:Quadratic Discriminant Analysis Imported successfully
+2025-05-14 22:40:29,183:INFO:Starting cross validation
+2025-05-14 22:40:29,191:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-14 22:40:29,323:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:29,343:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:29,346:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:29,354:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:29,364:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:29,368:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:29,372:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:29,407:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:29,646:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:29,650:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:29,653:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:29,765:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:29,771:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:29,782:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:29,835:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:29,915:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:29,921:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:29,935:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:30,033:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:30,039:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:30,057:INFO:Calculating mean and std
+2025-05-14 22:40:30,059:INFO:Creating metrics dataframe
+2025-05-14 22:40:30,064:INFO:Uploading results into container
+2025-05-14 22:40:30,066:INFO:Uploading model into container now
+2025-05-14 22:40:30,066:INFO:_master_model_container: 8
+2025-05-14 22:40:30,066:INFO:_display_container: 2
+2025-05-14 22:40:30,068:INFO:QuadraticDiscriminantAnalysis(priors=None, reg_param=0.0,
+                              store_covariance=False, tol=0.0001)
+2025-05-14 22:40:30,068:INFO:create_model() successfully completed......................................
+2025-05-14 22:40:30,258:INFO:SubProcess create_model() end ==================================
+2025-05-14 22:40:30,258:INFO:Creating metrics dataframe
+2025-05-14 22:40:30,275:INFO:Initializing Ada Boost Classifier
+2025-05-14 22:40:30,275:INFO:Total runtime is 0.16061762968699136 minutes
+2025-05-14 22:40:30,275:INFO:SubProcess create_model() called ==================================
+2025-05-14 22:40:30,275:INFO:Initializing create_model()
+2025-05-14 22:40:30,275:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000207D2E38D50>, estimator=ada, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000207D320BD50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-14 22:40:30,275:INFO:Checking exceptions
+2025-05-14 22:40:30,275:INFO:Importing libraries
+2025-05-14 22:40:30,275:INFO:Copying training dataset
+2025-05-14 22:40:30,291:INFO:Defining folds
+2025-05-14 22:40:30,291:INFO:Declaring metric variables
+2025-05-14 22:40:30,305:INFO:Importing untrained model
+2025-05-14 22:40:30,307:INFO:Ada Boost Classifier Imported successfully
+2025-05-14 22:40:30,327:INFO:Starting cross validation
+2025-05-14 22:40:30,330:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-14 22:40:30,461:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:30,465:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:30,474:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:30,481:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:30,492:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:30,500:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:30,521:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:30,525:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:30,649:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2025-05-14 22:40:30,655:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2025-05-14 22:40:30,655:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2025-05-14 22:40:30,667:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2025-05-14 22:40:30,955:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:30,957:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:30,961:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:31,016:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:31,037:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2025-05-14 22:40:31,057:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2025-05-14 22:40:31,059:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:31,070:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:31,104:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2025-05-14 22:40:31,147:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2025-05-14 22:40:31,308:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:31,324:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:31,374:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2025-05-14 22:40:31,379:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:31,381:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2025-05-14 22:40:31,457:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:31,590:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:31,598:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:31,614:INFO:Calculating mean and std
+2025-05-14 22:40:31,614:INFO:Creating metrics dataframe
+2025-05-14 22:40:31,620:INFO:Uploading results into container
+2025-05-14 22:40:31,623:INFO:Uploading model into container now
+2025-05-14 22:40:31,625:INFO:_master_model_container: 9
+2025-05-14 22:40:31,625:INFO:_display_container: 2
+2025-05-14 22:40:31,625:INFO:AdaBoostClassifier(algorithm='SAMME.R', estimator=None, learning_rate=1.0,
+                   n_estimators=50, random_state=777)
+2025-05-14 22:40:31,625:INFO:create_model() successfully completed......................................
+2025-05-14 22:40:31,790:INFO:SubProcess create_model() end ==================================
+2025-05-14 22:40:31,790:INFO:Creating metrics dataframe
+2025-05-14 22:40:31,803:INFO:Initializing Gradient Boosting Classifier
+2025-05-14 22:40:31,803:INFO:Total runtime is 0.18608158429463703 minutes
+2025-05-14 22:40:31,814:INFO:SubProcess create_model() called ==================================
+2025-05-14 22:40:31,817:INFO:Initializing create_model()
+2025-05-14 22:40:31,819:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000207D2E38D50>, estimator=gbc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000207D320BD50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-14 22:40:31,819:INFO:Checking exceptions
+2025-05-14 22:40:31,819:INFO:Importing libraries
+2025-05-14 22:40:31,819:INFO:Copying training dataset
+2025-05-14 22:40:31,829:INFO:Defining folds
+2025-05-14 22:40:31,829:INFO:Declaring metric variables
+2025-05-14 22:40:31,837:INFO:Importing untrained model
+2025-05-14 22:40:31,844:INFO:Gradient Boosting Classifier Imported successfully
+2025-05-14 22:40:31,857:INFO:Starting cross validation
+2025-05-14 22:40:31,867:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-14 22:40:31,977:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:31,991:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:32,024:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:32,024:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:32,030:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:32,042:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:32,050:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:32,058:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:32,513:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:32,515:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:32,532:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:32,575:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:32,599:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:32,648:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:32,795:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:32,843:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:32,901:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:32,902:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:32,975:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:32,990:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:33,002:INFO:Calculating mean and std
+2025-05-14 22:40:33,002:INFO:Creating metrics dataframe
+2025-05-14 22:40:33,002:INFO:Uploading results into container
+2025-05-14 22:40:33,002:INFO:Uploading model into container now
+2025-05-14 22:40:33,002:INFO:_master_model_container: 10
+2025-05-14 22:40:33,002:INFO:_display_container: 2
+2025-05-14 22:40:33,010:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=777, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2025-05-14 22:40:33,012:INFO:create_model() successfully completed......................................
+2025-05-14 22:40:33,152:INFO:SubProcess create_model() end ==================================
+2025-05-14 22:40:33,152:INFO:Creating metrics dataframe
+2025-05-14 22:40:33,168:INFO:Initializing Linear Discriminant Analysis
+2025-05-14 22:40:33,168:INFO:Total runtime is 0.20883571306864418 minutes
+2025-05-14 22:40:33,188:INFO:SubProcess create_model() called ==================================
+2025-05-14 22:40:33,189:INFO:Initializing create_model()
+2025-05-14 22:40:33,189:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000207D2E38D50>, estimator=lda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000207D320BD50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-14 22:40:33,190:INFO:Checking exceptions
+2025-05-14 22:40:33,190:INFO:Importing libraries
+2025-05-14 22:40:33,190:INFO:Copying training dataset
+2025-05-14 22:40:33,197:INFO:Defining folds
+2025-05-14 22:40:33,198:INFO:Declaring metric variables
+2025-05-14 22:40:33,204:INFO:Importing untrained model
+2025-05-14 22:40:33,204:INFO:Linear Discriminant Analysis Imported successfully
+2025-05-14 22:40:33,225:INFO:Starting cross validation
+2025-05-14 22:40:33,238:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-14 22:40:33,343:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:33,358:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:33,372:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:33,384:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:33,385:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:33,410:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:33,418:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:33,428:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:33,660:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:33,675:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:33,694:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:33,729:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:33,731:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:33,784:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:33,792:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:33,836:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:33,855:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:33,914:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:33,980:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:33,982:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:34,003:INFO:Calculating mean and std
+2025-05-14 22:40:34,004:INFO:Creating metrics dataframe
+2025-05-14 22:40:34,008:INFO:Uploading results into container
+2025-05-14 22:40:34,010:INFO:Uploading model into container now
+2025-05-14 22:40:34,010:INFO:_master_model_container: 11
+2025-05-14 22:40:34,010:INFO:_display_container: 2
+2025-05-14 22:40:34,010:INFO:LinearDiscriminantAnalysis(covariance_estimator=None, n_components=None,
+                           priors=None, shrinkage=None, solver='svd',
+                           store_covariance=False, tol=0.0001)
+2025-05-14 22:40:34,010:INFO:create_model() successfully completed......................................
+2025-05-14 22:40:34,177:INFO:SubProcess create_model() end ==================================
+2025-05-14 22:40:34,177:INFO:Creating metrics dataframe
+2025-05-14 22:40:34,184:INFO:Initializing Extra Trees Classifier
+2025-05-14 22:40:34,184:INFO:Total runtime is 0.22575967709223427 minutes
+2025-05-14 22:40:34,200:INFO:SubProcess create_model() called ==================================
+2025-05-14 22:40:34,200:INFO:Initializing create_model()
+2025-05-14 22:40:34,200:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000207D2E38D50>, estimator=et, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000207D320BD50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-14 22:40:34,200:INFO:Checking exceptions
+2025-05-14 22:40:34,200:INFO:Importing libraries
+2025-05-14 22:40:34,200:INFO:Copying training dataset
+2025-05-14 22:40:34,200:INFO:Defining folds
+2025-05-14 22:40:34,200:INFO:Declaring metric variables
+2025-05-14 22:40:34,218:INFO:Importing untrained model
+2025-05-14 22:40:34,236:INFO:Extra Trees Classifier Imported successfully
+2025-05-14 22:40:34,253:INFO:Starting cross validation
+2025-05-14 22:40:34,267:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-14 22:40:34,392:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:34,416:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:34,419:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:34,440:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:34,450:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:34,450:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:34,473:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:34,474:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:35,216:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:35,222:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:35,324:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:35,374:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:35,383:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:35,448:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:35,472:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:35,517:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:35,656:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:35,704:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:35,916:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:35,926:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:35,947:INFO:Calculating mean and std
+2025-05-14 22:40:35,949:INFO:Creating metrics dataframe
+2025-05-14 22:40:35,953:INFO:Uploading results into container
+2025-05-14 22:40:35,954:INFO:Uploading model into container now
+2025-05-14 22:40:35,954:INFO:_master_model_container: 12
+2025-05-14 22:40:35,954:INFO:_display_container: 2
+2025-05-14 22:40:35,958:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                     oob_score=False, random_state=777, verbose=0,
+                     warm_start=False)
+2025-05-14 22:40:35,958:INFO:create_model() successfully completed......................................
+2025-05-14 22:40:36,182:INFO:SubProcess create_model() end ==================================
+2025-05-14 22:40:36,182:INFO:Creating metrics dataframe
+2025-05-14 22:40:36,199:INFO:Initializing Light Gradient Boosting Machine
+2025-05-14 22:40:36,199:INFO:Total runtime is 0.25934180816014607 minutes
+2025-05-14 22:40:36,199:INFO:SubProcess create_model() called ==================================
+2025-05-14 22:40:36,199:INFO:Initializing create_model()
+2025-05-14 22:40:36,199:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000207D2E38D50>, estimator=lightgbm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000207D320BD50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-14 22:40:36,199:INFO:Checking exceptions
+2025-05-14 22:40:36,199:INFO:Importing libraries
+2025-05-14 22:40:36,199:INFO:Copying training dataset
+2025-05-14 22:40:36,215:INFO:Defining folds
+2025-05-14 22:40:36,215:INFO:Declaring metric variables
+2025-05-14 22:40:36,215:INFO:Importing untrained model
+2025-05-14 22:40:36,236:INFO:Light Gradient Boosting Machine Imported successfully
+2025-05-14 22:40:36,252:INFO:Starting cross validation
+2025-05-14 22:40:36,260:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-14 22:40:36,385:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:36,389:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:36,399:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:36,401:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:36,407:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:36,424:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:36,447:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:36,448:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:36,901:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:36,933:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:36,937:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:37,012:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:37,027:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:37,050:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:37,093:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:37,126:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:37,154:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:37,185:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:37,347:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:37,349:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:37,362:INFO:Calculating mean and std
+2025-05-14 22:40:37,364:INFO:Creating metrics dataframe
+2025-05-14 22:40:37,368:INFO:Uploading results into container
+2025-05-14 22:40:37,370:INFO:Uploading model into container now
+2025-05-14 22:40:37,371:INFO:_master_model_container: 13
+2025-05-14 22:40:37,372:INFO:_display_container: 2
+2025-05-14 22:40:37,375:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=777, reg_alpha=0.0, reg_lambda=0.0, subsample=1.0,
+               subsample_for_bin=200000, subsample_freq=0)
+2025-05-14 22:40:37,375:INFO:create_model() successfully completed......................................
+2025-05-14 22:40:37,548:INFO:SubProcess create_model() end ==================================
+2025-05-14 22:40:37,548:INFO:Creating metrics dataframe
+2025-05-14 22:40:37,564:INFO:Initializing Dummy Classifier
+2025-05-14 22:40:37,564:INFO:Total runtime is 0.28209513823191323 minutes
+2025-05-14 22:40:37,581:INFO:SubProcess create_model() called ==================================
+2025-05-14 22:40:37,581:INFO:Initializing create_model()
+2025-05-14 22:40:37,581:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000207D2E38D50>, estimator=dummy, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000207D320BD50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-14 22:40:37,581:INFO:Checking exceptions
+2025-05-14 22:40:37,581:INFO:Importing libraries
+2025-05-14 22:40:37,581:INFO:Copying training dataset
+2025-05-14 22:40:37,581:INFO:Defining folds
+2025-05-14 22:40:37,581:INFO:Declaring metric variables
+2025-05-14 22:40:37,599:INFO:Importing untrained model
+2025-05-14 22:40:37,615:INFO:Dummy Classifier Imported successfully
+2025-05-14 22:40:37,626:INFO:Starting cross validation
+2025-05-14 22:40:37,636:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-14 22:40:37,754:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:37,758:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:37,783:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:37,791:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:37,793:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:37,816:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:37,816:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:37,830:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:38,073:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:38,075:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:38,075:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:38,090:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:38,190:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:38,199:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:38,213:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:38,215:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:38,320:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:38,324:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:38,406:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:38,412:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:38,431:INFO:Calculating mean and std
+2025-05-14 22:40:38,431:INFO:Creating metrics dataframe
+2025-05-14 22:40:38,438:INFO:Uploading results into container
+2025-05-14 22:40:38,438:INFO:Uploading model into container now
+2025-05-14 22:40:38,438:INFO:_master_model_container: 14
+2025-05-14 22:40:38,438:INFO:_display_container: 2
+2025-05-14 22:40:38,438:INFO:DummyClassifier(constant=None, random_state=777, strategy='prior')
+2025-05-14 22:40:38,438:INFO:create_model() successfully completed......................................
+2025-05-14 22:40:38,613:INFO:SubProcess create_model() end ==================================
+2025-05-14 22:40:38,613:INFO:Creating metrics dataframe
+2025-05-14 22:40:38,630:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pycaret_experiment\supervised_experiment.py:339: FutureWarning: Styler.applymap has been deprecated. Use Styler.map instead.
+  .applymap(highlight_cols, subset=["TT (Sec)"])
+
+2025-05-14 22:40:38,662:INFO:Initializing create_model()
+2025-05-14 22:40:38,662:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000207D2E38D50>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=777, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-14 22:40:38,663:INFO:Checking exceptions
+2025-05-14 22:40:38,664:INFO:Importing libraries
+2025-05-14 22:40:38,664:INFO:Copying training dataset
+2025-05-14 22:40:38,664:INFO:Defining folds
+2025-05-14 22:40:38,664:INFO:Declaring metric variables
+2025-05-14 22:40:38,664:INFO:Importing untrained model
+2025-05-14 22:40:38,664:INFO:Declaring custom model
+2025-05-14 22:40:38,664:INFO:Logistic Regression Imported successfully
+2025-05-14 22:40:38,684:INFO:Cross validation set to False
+2025-05-14 22:40:38,684:INFO:Fitting Model
+2025-05-14 22:40:38,749:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Info] Number of positive: 29, number of negative: 111
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000058 seconds.
+2025-05-14 22:40:38,763:INFO:You can set `force_col_wise=true` to remove the overhead.
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Info] Total Bins 25
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Info] Number of data points in the train set: 140, number of used features: 9
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.207143 -> initscore=-1.342234
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Info] Start training from score -1.342234
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,763:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,777:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,777:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,779:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,779:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,779:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,780:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,780:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,780:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,781:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,781:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,781:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,781:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,781:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,781:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,782:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,782:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,782:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,782:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,783:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,783:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,783:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,783:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,783:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,784:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,784:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,784:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,784:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,784:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,784:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,785:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,790:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,790:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,790:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,790:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,790:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,790:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,790:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,790:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,792:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,792:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,792:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,792:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,792:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,792:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:38,796:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=777, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-05-14 22:40:38,796:INFO:create_model() successfully completed......................................
+2025-05-14 22:40:39,034:INFO:_master_model_container: 14
+2025-05-14 22:40:39,034:INFO:_display_container: 2
+2025-05-14 22:40:39,034:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=777, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-05-14 22:40:39,034:INFO:compare_models() successfully completed......................................
+2025-05-14 22:40:39,034:INFO:Initializing tune_model()
+2025-05-14 22:40:39,034:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000207D2E38D50>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=777, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=AUC, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2025-05-14 22:40:39,034:INFO:Checking exceptions
+2025-05-14 22:40:39,072:INFO:Copying training dataset
+2025-05-14 22:40:39,083:INFO:Checking base model
+2025-05-14 22:40:39,083:INFO:Base model : Logistic Regression
+2025-05-14 22:40:39,094:INFO:Declaring metric variables
+2025-05-14 22:40:39,103:INFO:Defining Hyperparameters
+2025-05-14 22:40:39,374:INFO:Tuning with n_jobs=-1
+2025-05-14 22:40:39,374:INFO:Initializing RandomizedSearchCV
+2025-05-14 22:40:39,518:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:39,523:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:39,558:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:39,562:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:39,572:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:39,572:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:39,656:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,040:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,047:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,063:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,100:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,310:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,316:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,333:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,410:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,685:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,700:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,705:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,755:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,920:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:40,943:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:41,010:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:41,165:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:41,283:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:41,285:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:41,341:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:41,505:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:41,659:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:41,687:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:41,826:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:41,935:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:42,038:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:42,045:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:42,313:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:42,422:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:42,554:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:42,646:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:42,698:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:42,748:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:42,950:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:43,147:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:43,396:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:43,521:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:43,582:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:43,733:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:43,736:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:43,781:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:44,061:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:44,113:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:44,251:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:44,321:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:44,379:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:44,434:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:44,631:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:44,665:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:44,977:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:44,997:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:45,005:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:45,019:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:45,251:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:45,299:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:45,426:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:45,568:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:45,684:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:45,704:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:45,828:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:45,946:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:46,028:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:46,106:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:46,334:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:46,342:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:46,368:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:46,509:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:46,666:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:46,670:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:46,703:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:46,930:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:46,979:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:46,988:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:47,063:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:47,354:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:47,426:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:47,472:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:47,507:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:47,768:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:47,779:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:47,810:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:47,858:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:48,130:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:48,140:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:48,183:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:48,391:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:48,464:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:48,498:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:48,552:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:48,739:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:48,815:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:48,822:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:48,923:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:49,186:INFO:best_params: {'actual_estimator__class_weight': 'balanced', 'actual_estimator__C': 9.684}
+2025-05-14 22:40:49,186:INFO:Hyperparameter search completed
+2025-05-14 22:40:49,186:INFO:SubProcess create_model() called ==================================
+2025-05-14 22:40:49,186:INFO:Initializing create_model()
+2025-05-14 22:40:49,186:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000207D2E38D50>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=777, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000207D3977650>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'class_weight': 'balanced', 'C': 9.684})
+2025-05-14 22:40:49,186:INFO:Checking exceptions
+2025-05-14 22:40:49,186:INFO:Importing libraries
+2025-05-14 22:40:49,186:INFO:Copying training dataset
+2025-05-14 22:40:49,204:INFO:Defining folds
+2025-05-14 22:40:49,204:INFO:Declaring metric variables
+2025-05-14 22:40:49,208:INFO:Importing untrained model
+2025-05-14 22:40:49,208:INFO:Declaring custom model
+2025-05-14 22:40:49,221:INFO:Logistic Regression Imported successfully
+2025-05-14 22:40:49,236:INFO:Starting cross validation
+2025-05-14 22:40:49,244:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-14 22:40:49,380:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:49,394:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:49,396:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:49,415:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:49,422:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:49,432:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:49,452:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:49,458:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:49,770:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:49,782:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:50,017:INFO:Calculating mean and std
+2025-05-14 22:40:50,017:INFO:Creating metrics dataframe
+2025-05-14 22:40:50,024:INFO:Finalizing model
+2025-05-14 22:40:50,085:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:50,119:INFO:[LightGBM] [Info] Number of positive: 29, number of negative: 111
+2025-05-14 22:40:50,119:INFO:[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000065 seconds.
+2025-05-14 22:40:50,119:INFO:You can set `force_col_wise=true` to remove the overhead.
+2025-05-14 22:40:50,119:INFO:[LightGBM] [Info] Total Bins 25
+2025-05-14 22:40:50,119:INFO:[LightGBM] [Info] Number of data points in the train set: 140, number of used features: 9
+2025-05-14 22:40:50,121:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.207143 -> initscore=-1.342234
+2025-05-14 22:40:50,121:INFO:[LightGBM] [Info] Start training from score -1.342234
+2025-05-14 22:40:50,121:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,121:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,121:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,121:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,121:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,121:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,121:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,121:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,123:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,123:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,123:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,123:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,123:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,123:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,123:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,123:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,123:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,123:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,125:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,125:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,125:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,125:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,125:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,125:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,125:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,125:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,125:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,125:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,127:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,127:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,127:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,127:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,127:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,127:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,127:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,127:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,127:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,127:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,129:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,129:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,129:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,129:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,129:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,129:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,129:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,129:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,129:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,129:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,129:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,131:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,131:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,131:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,131:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,131:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,131:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,131:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,131:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,131:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,133:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:50,165:INFO:Uploading results into container
+2025-05-14 22:40:50,168:INFO:Uploading model into container now
+2025-05-14 22:40:50,170:INFO:_master_model_container: 15
+2025-05-14 22:40:50,170:INFO:_display_container: 3
+2025-05-14 22:40:50,171:INFO:LogisticRegression(C=9.684, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=777, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-05-14 22:40:50,171:INFO:create_model() successfully completed......................................
+2025-05-14 22:40:50,350:INFO:SubProcess create_model() end ==================================
+2025-05-14 22:40:50,350:INFO:choose_better activated
+2025-05-14 22:40:50,350:INFO:SubProcess create_model() called ==================================
+2025-05-14 22:40:50,350:INFO:Initializing create_model()
+2025-05-14 22:40:50,350:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000207D2E38D50>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=777, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-14 22:40:50,350:INFO:Checking exceptions
+2025-05-14 22:40:50,368:INFO:Importing libraries
+2025-05-14 22:40:50,369:INFO:Copying training dataset
+2025-05-14 22:40:50,373:INFO:Defining folds
+2025-05-14 22:40:50,373:INFO:Declaring metric variables
+2025-05-14 22:40:50,373:INFO:Importing untrained model
+2025-05-14 22:40:50,373:INFO:Declaring custom model
+2025-05-14 22:40:50,373:INFO:Logistic Regression Imported successfully
+2025-05-14 22:40:50,373:INFO:Starting cross validation
+2025-05-14 22:40:50,373:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-14 22:40:50,512:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:50,514:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:50,522:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:50,529:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:50,539:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:50,547:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:50,555:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:50,565:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:50,806:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:50,809:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:50,844:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:50,924:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:50,925:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:51,000:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:51,027:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:51,056:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:51,120:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:51,140:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:51,188:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:51,188:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-05-14 22:40:51,208:INFO:Calculating mean and std
+2025-05-14 22:40:51,208:INFO:Creating metrics dataframe
+2025-05-14 22:40:51,208:INFO:Finalizing model
+2025-05-14 22:40:51,268:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\preprocessing\_discretization.py:248: FutureWarning: In version 1.5 onwards, subsample=200_000 will be used by default. Set subsample explicitly to silence this warning in the mean time. Set subsample=None to disable subsampling explicitly.
+  warnings.warn(
+
+2025-05-14 22:40:51,294:INFO:[LightGBM] [Info] Number of positive: 29, number of negative: 111
+2025-05-14 22:40:51,296:INFO:[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000073 seconds.
+2025-05-14 22:40:51,296:INFO:You can set `force_col_wise=true` to remove the overhead.
+2025-05-14 22:40:51,296:INFO:[LightGBM] [Info] Total Bins 25
+2025-05-14 22:40:51,296:INFO:[LightGBM] [Info] Number of data points in the train set: 140, number of used features: 9
+2025-05-14 22:40:51,296:INFO:[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.207143 -> initscore=-1.342234
+2025-05-14 22:40:51,296:INFO:[LightGBM] [Info] Start training from score -1.342234
+2025-05-14 22:40:51,296:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,296:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,298:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,298:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,298:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,298:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,298:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,298:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,300:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,316:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,317:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,318:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,318:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,319:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,319:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,319:INFO:[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+2025-05-14 22:40:51,339:INFO:Uploading results into container
+2025-05-14 22:40:51,339:INFO:Uploading model into container now
+2025-05-14 22:40:51,341:INFO:_master_model_container: 16
+2025-05-14 22:40:51,341:INFO:_display_container: 4
+2025-05-14 22:40:51,341:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=777, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-05-14 22:40:51,341:INFO:create_model() successfully completed......................................
+2025-05-14 22:40:51,516:INFO:SubProcess create_model() end ==================================
+2025-05-14 22:40:51,516:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=777, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for AUC is 0.5519
+2025-05-14 22:40:51,516:INFO:LogisticRegression(C=9.684, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=777, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for AUC is 0.5519
+2025-05-14 22:40:51,516:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=777, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) is best model
+2025-05-14 22:40:51,516:INFO:choose_better completed
+2025-05-14 22:40:51,516:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2025-05-14 22:40:51,554:INFO:_master_model_container: 16
+2025-05-14 22:40:51,554:INFO:_display_container: 3
+2025-05-14 22:40:51,555:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=777, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-05-14 22:40:51,555:INFO:tune_model() successfully completed......................................
+2025-05-14 22:40:51,730:INFO:Initializing interpret_model()
+2025-05-14 22:40:51,730:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000207D2E38D50>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=777, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2025-05-14 22:40:51,730:INFO:Checking exceptions
+2025-05-14 22:40:51,730:INFO:Soft dependency imported: shap: 0.47.2
