@@ -20523,3 +20523,24 @@ Alternately, you can install this by running `pip install pycaret[models]`
                    n_estimators=50, random_state=2025), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
 2025-05-19 20:34:41,038:INFO:Checking exceptions
 2025-05-19 20:34:41,038:INFO:Soft dependency imported: shap: 0.47.2
+2025-05-19 20:36:53,351:INFO:Initializing predict_model()
+2025-05-19 20:36:53,352:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001A109A7AE10>, estimator=AdaBoostClassifier(algorithm='SAMME.R', estimator=None, learning_rate=1.0,
+                   n_estimators=50, random_state=2025), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001A109A14400>)
+2025-05-19 20:36:53,352:INFO:Checking exceptions
+2025-05-19 20:36:53,352:INFO:Preloading libraries
+2025-05-19 20:36:53,359:INFO:Set up data.
+2025-05-19 20:36:53,370:INFO:Set up index.
+2025-05-19 20:37:21,909:INFO:Initializing predict_model()
+2025-05-19 20:37:21,909:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001A109A7AE10>, estimator=AdaBoostClassifier(algorithm='SAMME.R', estimator=None, learning_rate=1.0,
+                   n_estimators=50, random_state=2025), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001A113598E00>)
+2025-05-19 20:37:21,909:INFO:Checking exceptions
+2025-05-19 20:37:21,909:INFO:Preloading libraries
+2025-05-19 20:37:21,914:INFO:Set up data.
+2025-05-19 20:37:21,924:INFO:Set up index.
+2025-05-19 20:37:42,802:INFO:Initializing predict_model()
+2025-05-19 20:37:42,803:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001A109A7AE10>, estimator=AdaBoostClassifier(algorithm='SAMME.R', estimator=None, learning_rate=1.0,
+                   n_estimators=50, random_state=2025), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001A11078ECA0>)
+2025-05-19 20:37:42,805:INFO:Checking exceptions
+2025-05-19 20:37:42,805:INFO:Preloading libraries
+2025-05-19 20:37:42,808:INFO:Set up data.
+2025-05-19 20:37:42,818:INFO:Set up index.
