@@ -31062,3 +31062,9 @@ Please also refer to the documentation for alternative solver options:
 2025-05-23 23:25:58,613:INFO:Generating predictions / predict_proba on X_test
 2025-05-23 23:25:59,515:INFO:Visual Rendered Successfully
 2025-05-23 23:25:59,725:INFO:plot_model() successfully completed......................................
+2025-05-23 23:29:32,323:INFO:Initializing predict_model()
+2025-05-23 23:29:32,323:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D286D98D50>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=31, p=2,
+                     weights='uniform'), probability_threshold=None, encoded_labels=False, raw_score=True, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D284C144A0>)
+2025-05-23 23:29:32,323:INFO:Checking exceptions
+2025-05-23 23:29:32,323:INFO:Preloading libraries
