@@ -41646,3 +41646,510 @@ Please also refer to the documentation for alternative solver options:
                      metric_params=None, n_jobs=-1, n_neighbors=31, p=2,
                      weights='uniform'), plot=force, feature=None, observation=6, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
 2025-05-24 15:55:30,890:INFO:Checking exceptions
+2025-05-24 15:57:59,502:INFO:Initializing interpret_model()
+2025-05-24 15:57:59,502:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=31, p=2,
+                     weights='uniform'), plot=force, feature=None, observation=None, use_train_data=False, X_new_sample=   edad segmento   saldo_total  numero_productos  visitas_app_mes  usa_web  \
+6    37  Premium  34962.628906                 4                6        0   
+
+   usa_tarjeta_credito  reclamos_6m  satisfaccion_encuesta  \
+6                    0            0                    3.6   
+
+   tasa_credito_personal rango_ingresos region  
+6                  45.23          Medio  Costa  , y_new_sample=None, save=False, kwargs={})
+2025-05-24 15:57:59,502:INFO:Checking exceptions
+2025-05-24 15:58:07,157:INFO:Initializing interpret_model()
+2025-05-24 15:58:07,157:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=31, p=2,
+                     weights='uniform'), plot=force, feature=None, observation=None, use_train_data=False, X_new_sample=   edad segmento   saldo_total  numero_productos  visitas_app_mes  usa_web  \
+6    37  Premium  34962.628906                 4                6        0   
+
+   usa_tarjeta_credito  reclamos_6m  satisfaccion_encuesta  \
+6                    0            0                    3.6   
+
+   tasa_credito_personal rango_ingresos region  
+6                  45.23          Medio  Costa  , y_new_sample=None, save=False, kwargs={})
+2025-05-24 15:58:07,157:INFO:Checking exceptions
+2025-05-24 15:58:15,591:INFO:Initializing interpret_model()
+2025-05-24 15:58:15,592:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=31, p=2,
+                     weights='uniform'), plot=reason, feature=None, observation=None, use_train_data=False, X_new_sample=   edad segmento   saldo_total  numero_productos  visitas_app_mes  usa_web  \
+6    37  Premium  34962.628906                 4                6        0   
+
+   usa_tarjeta_credito  reclamos_6m  satisfaccion_encuesta  \
+6                    0            0                    3.6   
+
+   tasa_credito_personal rango_ingresos region  
+6                  45.23          Medio  Costa  , y_new_sample=None, save=False, kwargs={})
+2025-05-24 15:58:15,592:INFO:Checking exceptions
+2025-05-24 15:58:15,592:INFO:Soft dependency imported: shap: 0.47.2
+2025-05-24 16:03:29,091:INFO:Initializing get_config()
+2025-05-24 16:03:29,091:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, variable=X_train)
+2025-05-24 16:03:29,092:INFO:Variable: 'X_train' used to return the transformed values in PyCaret 2.x. From PyCaret 3.x, this will return the raw values. If you need the transformed values, call get_config with 'X_train_transformed' instead.
+2025-05-24 16:03:29,099:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pycaret_experiment\pycaret_experiment.py:321: UserWarning: Variable: 'X_train' used to return the transformed values in PyCaret 2.x. From PyCaret 3.x, this will return the raw values. If you need the transformed values, call get_config with 'X_train_transformed' instead.
+  warnings.warn(msg)  # print on screen
+
+2025-05-24 16:03:29,115:INFO:Variable:  returned as       edad    segmento   saldo_total  numero_productos  visitas_app_mes  \
+4292    68    Estándar  21082.769531                 3                4   
+4347    53    Estándar  26450.099609                 4                3   
+4731    39    Estándar   7518.299805                 3                9   
+3162    74    Estándar  40464.179688                 1                5   
+314     53  Preferente  13231.809570                 4                8   
+...    ...         ...           ...               ...              ...   
+4941    36    Estándar   7201.549805                 3                8   
+2789    47    Estándar  19762.509766                 3                4   
+3178    58  Preferente  34947.238281                 2                8   
+2088    45  Preferente  34402.890625                 2                5   
+2860    27  Preferente  13881.709961                 3                6   
+
+      usa_web  usa_tarjeta_credito  reclamos_6m  satisfaccion_encuesta  \
+4292        0                    1            0                    3.3   
+4347        1                    1            1                    3.5   
+4731        1                    0            0                    2.8   
+3162        0                    0            1                    3.9   
+314         1                    1            0                    3.8   
+...       ...                  ...          ...                    ...   
+4941        1                    1            0                    2.0   
+2789        0                    0            1                    4.3   
+3178        1                    1            1                    1.1   
+2088        1                    1            0                    4.8   
+2860        1                    1            0                    4.4   
+
+      tasa_credito_personal rango_ingresos  region  
+4292              32.459999          Medio   Costa  
+4347              31.900000          Medio   Costa  
+4731              39.009998           Alto   Costa  
+3162              16.660000          Medio   Costa  
+314               28.370001          Medio   Costa  
+...                     ...            ...     ...  
+4941              45.840000           Bajo   Costa  
+2789              34.000000           Bajo  Sierra  
+3178              27.930000          Medio   Costa  
+2088              33.730000       Muy Alto   Costa  
+2860              31.610001           Bajo  Sierra  
+
+[3500 rows x 12 columns]
+2025-05-24 16:03:29,115:INFO:get_config() successfully completed......................................
+2025-05-24 16:03:29,116:INFO:Initializing get_config()
+2025-05-24 16:03:29,116:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, variable=y_train)
+2025-05-24 16:03:29,116:INFO:Variable: 'y_train' used to return the transformed values in PyCaret 2.x. From PyCaret 3.x, this will return the raw values. If you need the transformed values, call get_config with 'y_train_transformed' instead.
+2025-05-24 16:03:29,117:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pycaret_experiment\pycaret_experiment.py:321: UserWarning: Variable: 'y_train' used to return the transformed values in PyCaret 2.x. From PyCaret 3.x, this will return the raw values. If you need the transformed values, call get_config with 'y_train_transformed' instead.
+  warnings.warn(msg)  # print on screen
+
+2025-05-24 16:03:29,119:INFO:Variable:  returned as 4292    0
+4347    0
+4731    0
+3162    0
+314     0
+       ..
+4941    0
+2789    0
+3178    0
+2088    1
+2860    0
+Name: cerrara_cuenta, Length: 3500, dtype: int8
+2025-05-24 16:03:29,120:INFO:get_config() successfully completed......................................
+2025-05-24 16:06:57,343:INFO:Initializing predict_model()
+2025-05-24 16:06:57,355:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=31, p=2,
+                     weights='uniform'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000268B341AFC0>)
+2025-05-24 16:06:57,355:INFO:Checking exceptions
+2025-05-24 16:06:57,355:INFO:Preloading libraries
+2025-05-24 16:06:57,359:INFO:Set up data.
+2025-05-24 16:06:57,374:INFO:Set up index.
+2025-05-24 16:07:17,291:INFO:Initializing get_config()
+2025-05-24 16:07:17,292:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, variable=X_train)
+2025-05-24 16:07:17,292:INFO:Variable: 'X_train' used to return the transformed values in PyCaret 2.x. From PyCaret 3.x, this will return the raw values. If you need the transformed values, call get_config with 'X_train_transformed' instead.
+2025-05-24 16:07:17,293:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pycaret_experiment\pycaret_experiment.py:321: UserWarning: Variable: 'X_train' used to return the transformed values in PyCaret 2.x. From PyCaret 3.x, this will return the raw values. If you need the transformed values, call get_config with 'X_train_transformed' instead.
+  warnings.warn(msg)  # print on screen
+
+2025-05-24 16:07:17,310:INFO:Variable:  returned as       edad    segmento   saldo_total  numero_productos  visitas_app_mes  \
+4292    68    Estándar  21082.769531                 3                4   
+4347    53    Estándar  26450.099609                 4                3   
+4731    39    Estándar   7518.299805                 3                9   
+3162    74    Estándar  40464.179688                 1                5   
+314     53  Preferente  13231.809570                 4                8   
+...    ...         ...           ...               ...              ...   
+4941    36    Estándar   7201.549805                 3                8   
+2789    47    Estándar  19762.509766                 3                4   
+3178    58  Preferente  34947.238281                 2                8   
+2088    45  Preferente  34402.890625                 2                5   
+2860    27  Preferente  13881.709961                 3                6   
+
+      usa_web  usa_tarjeta_credito  reclamos_6m  satisfaccion_encuesta  \
+4292        0                    1            0                    3.3   
+4347        1                    1            1                    3.5   
+4731        1                    0            0                    2.8   
+3162        0                    0            1                    3.9   
+314         1                    1            0                    3.8   
+...       ...                  ...          ...                    ...   
+4941        1                    1            0                    2.0   
+2789        0                    0            1                    4.3   
+3178        1                    1            1                    1.1   
+2088        1                    1            0                    4.8   
+2860        1                    1            0                    4.4   
+
+      tasa_credito_personal rango_ingresos  region  
+4292              32.459999          Medio   Costa  
+4347              31.900000          Medio   Costa  
+4731              39.009998           Alto   Costa  
+3162              16.660000          Medio   Costa  
+314               28.370001          Medio   Costa  
+...                     ...            ...     ...  
+4941              45.840000           Bajo   Costa  
+2789              34.000000           Bajo  Sierra  
+3178              27.930000          Medio   Costa  
+2088              33.730000       Muy Alto   Costa  
+2860              31.610001           Bajo  Sierra  
+
+[3500 rows x 12 columns]
+2025-05-24 16:07:17,310:INFO:get_config() successfully completed......................................
+2025-05-24 16:07:17,310:INFO:Initializing get_config()
+2025-05-24 16:07:17,310:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, variable=y_train)
+2025-05-24 16:07:17,311:INFO:Variable: 'y_train' used to return the transformed values in PyCaret 2.x. From PyCaret 3.x, this will return the raw values. If you need the transformed values, call get_config with 'y_train_transformed' instead.
+2025-05-24 16:07:17,311:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pycaret_experiment\pycaret_experiment.py:321: UserWarning: Variable: 'y_train' used to return the transformed values in PyCaret 2.x. From PyCaret 3.x, this will return the raw values. If you need the transformed values, call get_config with 'y_train_transformed' instead.
+  warnings.warn(msg)  # print on screen
+
+2025-05-24 16:07:17,316:INFO:Variable:  returned as 4292    0
+4347    0
+4731    0
+3162    0
+314     0
+       ..
+4941    0
+2789    0
+3178    0
+2088    1
+2860    0
+Name: cerrara_cuenta, Length: 3500, dtype: int8
+2025-05-24 16:07:17,316:INFO:get_config() successfully completed......................................
+2025-05-24 16:08:04,026:INFO:Initializing interpret_model()
+2025-05-24 16:08:04,026:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=31, p=2,
+                     weights='uniform'), plot=force, feature=None, observation=6, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2025-05-24 16:08:04,026:INFO:Checking exceptions
+2025-05-24 16:09:27,644:INFO:Initializing get_config()
+2025-05-24 16:09:27,644:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, variable=X_train)
+2025-05-24 16:09:27,645:INFO:Variable: 'X_train' used to return the transformed values in PyCaret 2.x. From PyCaret 3.x, this will return the raw values. If you need the transformed values, call get_config with 'X_train_transformed' instead.
+2025-05-24 16:09:27,646:WARNING:c:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycaret\internal\pycaret_experiment\pycaret_experiment.py:321: UserWarning: Variable: 'X_train' used to return the transformed values in PyCaret 2.x. From PyCaret 3.x, this will return the raw values. If you need the transformed values, call get_config with 'X_train_transformed' instead.
+  warnings.warn(msg)  # print on screen
+
+2025-05-24 16:09:27,660:INFO:Variable:  returned as       edad    segmento   saldo_total  numero_productos  visitas_app_mes  \
+4292    68    Estándar  21082.769531                 3                4   
+4347    53    Estándar  26450.099609                 4                3   
+4731    39    Estándar   7518.299805                 3                9   
+3162    74    Estándar  40464.179688                 1                5   
+314     53  Preferente  13231.809570                 4                8   
+...    ...         ...           ...               ...              ...   
+4941    36    Estándar   7201.549805                 3                8   
+2789    47    Estándar  19762.509766                 3                4   
+3178    58  Preferente  34947.238281                 2                8   
+2088    45  Preferente  34402.890625                 2                5   
+2860    27  Preferente  13881.709961                 3                6   
+
+      usa_web  usa_tarjeta_credito  reclamos_6m  satisfaccion_encuesta  \
+4292        0                    1            0                    3.3   
+4347        1                    1            1                    3.5   
+4731        1                    0            0                    2.8   
+3162        0                    0            1                    3.9   
+314         1                    1            0                    3.8   
+...       ...                  ...          ...                    ...   
+4941        1                    1            0                    2.0   
+2789        0                    0            1                    4.3   
+3178        1                    1            1                    1.1   
+2088        1                    1            0                    4.8   
+2860        1                    1            0                    4.4   
+
+      tasa_credito_personal rango_ingresos  region  
+4292              32.459999          Medio   Costa  
+4347              31.900000          Medio   Costa  
+4731              39.009998           Alto   Costa  
+3162              16.660000          Medio   Costa  
+314               28.370001          Medio   Costa  
+...                     ...            ...     ...  
+4941              45.840000           Bajo   Costa  
+2789              34.000000           Bajo  Sierra  
+3178              27.930000          Medio   Costa  
+2088              33.730000       Muy Alto   Costa  
+2860              31.610001           Bajo  Sierra  
+
+[3500 rows x 12 columns]
+2025-05-24 16:09:27,660:INFO:get_config() successfully completed......................................
+2025-05-24 16:09:27,661:INFO:Initializing get_config()
+2025-05-24 16:09:27,661:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, variable=pipeline)
+2025-05-24 16:09:27,687:INFO:Variable:  returned as Pipeline(memory=FastMemory(location=C:\Users\Usuario\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              co...
+                                    transformer=RemoveMulticollinearity(threshold=0.85))),
+                ('balance',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=FixImbalancer(estimator=SMOTE(k_neighbors=5,
+                                                                              random_state=2025,
+                                                                              sampling_strategy='auto')))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False)))],
+         verbose=False)
+2025-05-24 16:09:27,687:INFO:get_config() successfully completed......................................
+2025-05-24 16:51:31,156:INFO:Initializing plot_model()
+2025-05-24 16:51:31,159:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform'), plot=shap, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs={'data_sample':       edad    segmento  saldo_total  numero_productos  visitas_app_mes  \
+0       48  Preferente     43791.80                 5               11   
+1       36    Estándar     17940.87                 1                7   
+2       48    Estándar      9308.09                 4                3   
+3       30    Estándar       709.76                 5                5   
+4       74  Preferente     20471.46                 1                4   
+...    ...         ...          ...               ...              ...   
+4995    30    Estándar     12464.23                 5                4   
+4996    58  Preferente     18939.17                 5                3   
+4997    30    Estándar     51162.08                 3                3   
+4998    58    Estándar     14282.38                 1                9   
+4999    66    Estándar     25974.47                 5                3   
+
+      usa_web  usa_tarjeta_credito  reclamos_6m  satisfaccion_encuesta  \
+0           0                    1            1                    4.2   
+1           0                    1            0                    2.2   
+2           0                    1            1                    1.0   
+3           1                    1            0                    5.0   
+4           0                    0            1                    3.1   
+...       ...                  ...          ...                    ...   
+4995        1                    0            3                    2.8   
+4996        1                    1            0                    2.1   
+4997        0                    1            0                    2.3   
+4998        0                    0            0                    2.0   
+4999        1                    0            0                    1.8   
+
+      tasa_credito_personal rango_ingresos  region  cerrara_cuenta  
+0                     36.82          Medio  Sierra               0  
+1                     39.78       Muy Alto   Selva               0  
+2                     28.36          Medio  Sierra               1  
+3                     45.73           Bajo   Selva               0  
+4                     39.19          Medio  Sierra               0  
+...                     ...            ...     ...             ...  
+4995                  27.93           Bajo   Costa               0  
+4996                  34.95           Bajo   Selva               0  
+4997                  35.58       Muy Alto  Sierra               0  
+4998                  44.67          Medio   Selva               1  
+4999                  30.65          Medio   Costa               0  
+
+[5000 rows x 13 columns], 'sample': 0}, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2025-05-24 16:51:31,161:INFO:Checking exceptions
+2025-05-24 17:14:31,785:INFO:Initializing predict_model()
+2025-05-24 17:14:31,786:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=31, p=2,
+                     weights='uniform'), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000268BD6A9DA0>)
+2025-05-24 17:14:31,786:INFO:Checking exceptions
+2025-05-24 17:14:31,786:INFO:Preloading libraries
+2025-05-24 17:29:14,869:INFO:Initializing interpret_model()
+2025-05-24 17:29:14,869:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=31, p=2,
+                     weights='uniform'), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2025-05-24 17:29:14,869:INFO:Checking exceptions
+2025-05-24 17:29:14,869:INFO:Soft dependency imported: shap: 0.47.2
+2025-05-24 17:30:10,341:INFO:Initializing interpret_model()
+2025-05-24 17:30:10,341:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+                     metric_params=None, n_jobs=-1, n_neighbors=31, p=2,
+                     weights='uniform'), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2025-05-24 17:30:10,341:INFO:Checking exceptions
+2025-05-24 17:30:10,342:INFO:Soft dependency imported: shap: 0.47.2
+2025-05-24 17:38:50,618:INFO:Initializing get_config()
+2025-05-24 17:38:50,618:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, variable=pipeline)
+2025-05-24 17:38:50,638:INFO:Variable:  returned as Pipeline(memory=FastMemory(location=C:\Users\Usuario\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              co...
+                                    transformer=RemoveMulticollinearity(threshold=0.85))),
+                ('balance',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=FixImbalancer(estimator=SMOTE(k_neighbors=5,
+                                                                              random_state=2025,
+                                                                              sampling_strategy='auto')))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False)))],
+         verbose=False)
+2025-05-24 17:38:50,638:INFO:get_config() successfully completed......................................
+2025-05-24 17:42:03,531:INFO:Initializing get_config()
+2025-05-24 17:42:03,531:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, variable=pipeline)
+2025-05-24 17:42:03,548:INFO:Variable:  returned as Pipeline(memory=FastMemory(location=C:\Users\Usuario\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              co...
+                                    transformer=RemoveMulticollinearity(threshold=0.85))),
+                ('balance',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=FixImbalancer(estimator=SMOTE(k_neighbors=5,
+                                                                              random_state=2025,
+                                                                              sampling_strategy='auto')))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False)))],
+         verbose=False)
+2025-05-24 17:42:03,548:INFO:get_config() successfully completed......................................
+2025-05-24 17:42:57,219:INFO:Initializing get_config()
+2025-05-24 17:42:57,220:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, variable=pipeline)
+2025-05-24 17:42:57,239:INFO:Variable:  returned as Pipeline(memory=FastMemory(location=C:\Users\Usuario\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              co...
+                                    transformer=RemoveMulticollinearity(threshold=0.85))),
+                ('balance',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=FixImbalancer(estimator=SMOTE(k_neighbors=5,
+                                                                              random_state=2025,
+                                                                              sampling_strategy='auto')))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False)))],
+         verbose=False)
+2025-05-24 17:42:57,240:INFO:get_config() successfully completed......................................
+2025-05-24 17:44:37,672:INFO:Initializing get_config()
+2025-05-24 17:44:37,673:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, variable=pipeline)
+2025-05-24 17:44:37,701:INFO:Variable:  returned as Pipeline(memory=FastMemory(location=C:\Users\Usuario\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              co...
+                                    transformer=RemoveMulticollinearity(threshold=0.85))),
+                ('balance',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=FixImbalancer(estimator=SMOTE(k_neighbors=5,
+                                                                              random_state=2025,
+                                                                              sampling_strategy='auto')))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False)))],
+         verbose=False)
+2025-05-24 17:44:37,701:INFO:get_config() successfully completed......................................
+2025-05-24 17:46:32,925:INFO:Initializing get_config()
+2025-05-24 17:46:32,925:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, variable=pipeline)
+2025-05-24 17:46:32,952:INFO:Variable:  returned as Pipeline(memory=FastMemory(location=C:\Users\Usuario\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              co...
+                                    transformer=RemoveMulticollinearity(threshold=0.85))),
+                ('balance',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=FixImbalancer(estimator=SMOTE(k_neighbors=5,
+                                                                              random_state=2025,
+                                                                              sampling_strategy='auto')))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False)))],
+         verbose=False)
+2025-05-24 17:46:32,954:INFO:get_config() successfully completed......................................
+2025-05-24 17:47:45,715:INFO:Initializing get_config()
+2025-05-24 17:47:45,715:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, variable=pipeline)
+2025-05-24 17:47:45,736:INFO:Variable:  returned as Pipeline(memory=FastMemory(location=C:\Users\Usuario\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              co...
+                                    transformer=RemoveMulticollinearity(threshold=0.85))),
+                ('balance',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=FixImbalancer(estimator=SMOTE(k_neighbors=5,
+                                                                              random_state=2025,
+                                                                              sampling_strategy='auto')))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False)))],
+         verbose=False)
+2025-05-24 17:47:45,736:INFO:get_config() successfully completed......................................
+2025-05-24 17:55:31,410:INFO:Initializing get_config()
+2025-05-24 17:55:31,410:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000268A162A6D0>, variable=pipeline)
+2025-05-24 17:55:31,430:INFO:Variable:  returned as Pipeline(memory=FastMemory(location=C:\Users\Usuario\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              co...
+                                    transformer=RemoveMulticollinearity(threshold=0.85))),
+                ('balance',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=FixImbalancer(estimator=SMOTE(k_neighbors=5,
+                                                                              random_state=2025,
+                                                                              sampling_strategy='auto')))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False)))],
+         verbose=False)
+2025-05-24 17:55:31,431:INFO:get_config() successfully completed......................................
